@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏋️ FitApp
+# 🏋️ LiftApp
 
 ### A fitness tracker with a social edge — build routines, track every set, and log your progress.
 
@@ -14,6 +14,7 @@
 <p>
   <img alt="Architecture" src="https://img.shields.io/badge/architecture-Clean%20Architecture-1f6feb?style=flat-square"/>
   <img alt="Course" src="https://img.shields.io/badge/CSC207-Software%20Design-7048e8?style=flat-square"/>
+  <img alt="Term" src="https://img.shields.io/badge/term-Fall%202021-f59f00?style=flat-square"/>
   <img alt="Grade" src="https://img.shields.io/badge/final%20grade-95%25%2B-brightgreen?style=flat-square"/>
 </p>
 
@@ -25,7 +26,7 @@
 
 ## 🎓 About This Project
 
-> **FitApp was built as the final project for CSC207 — *Software Design* — at the University of Toronto.**
+> **LiftApp was built in Fall 2021 as the final project for CSC207 — *Software Design* — at the University of Toronto.**
 
 The assignment gave us full creative freedom: we could build **anything we wanted**. The catch was
 *how* it would be graded. This wasn't marked on whether the app simply worked — it was marked on the
@@ -51,7 +52,7 @@ that the business rules don't know — or care — that they're running on Andro
 
 ## 🧱 Architecture
 
-FitApp is built on **Clean Architecture**. Dependencies always point *inward* — the UI and database
+LiftApp is built on **Clean Architecture**. Dependencies always point *inward* — the UI and database
 sit on the outside and depend on the business rules, never the other way around. The inner layers
 talk to the outside world only through interfaces they own (the Dependency Inversion Principle), which
 keeps the core logic framework-agnostic and unit-testable.
@@ -108,10 +109,10 @@ keeps the core logic framework-agnostic and unit-testable.
 
 <table>
   <tr>
-    <td align="center"><img alt="Home Page" src="FitApp-screenshots/HomePage.png" width="200"/><br/><sub><b>Home</b></sub></td>
-    <td align="center"><img alt="Login Page" src="FitApp-screenshots/Login.png" width="200"/><br/><sub><b>Login</b></sub></td>
-    <td align="center"><img alt="Signup With Error" src="FitApp-screenshots/SignupError.png" width="200"/><br/><sub><b>Sign Up (validation)</b></sub></td>
-    <td align="center"><img alt="Weight Info Page" src="FitApp-screenshots/WeightInfo.png" width="200"/><br/><sub><b>Weight Setup</b></sub></td>
+    <td align="center"><img alt="Home Page" src="LiftApp-screenshots/HomePage.png" width="200"/><br/><sub><b>Home</b></sub></td>
+    <td align="center"><img alt="Login Page" src="LiftApp-screenshots/Login.png" width="200"/><br/><sub><b>Login</b></sub></td>
+    <td align="center"><img alt="Signup With Error" src="LiftApp-screenshots/SignupError.png" width="200"/><br/><sub><b>Sign Up (validation)</b></sub></td>
+    <td align="center"><img alt="Weight Info Page" src="LiftApp-screenshots/WeightInfo.png" width="200"/><br/><sub><b>Weight Setup</b></sub></td>
   </tr>
 </table>
 
@@ -119,9 +120,9 @@ keeps the core logic framework-agnostic and unit-testable.
 
 <table>
   <tr>
-    <td align="center"><img alt="Dashboard Page" src="FitApp-screenshots/Dashboard.png" width="200"/><br/><sub><b>Dashboard</b></sub></td>
-    <td align="center"><img alt="Edit Profile Page" src="FitApp-screenshots/EditProfileInfo.png" width="200"/><br/><sub><b>Edit Profile</b></sub></td>
-    <td align="center"><img alt="Edit Weight Page" src="FitApp-screenshots/EditWeight.png" width="200"/><br/><sub><b>Edit Weight</b></sub></td>
+    <td align="center"><img alt="Dashboard Page" src="LiftApp-screenshots/Dashboard.png" width="200"/><br/><sub><b>Dashboard</b></sub></td>
+    <td align="center"><img alt="Edit Profile Page" src="LiftApp-screenshots/EditProfileInfo.png" width="200"/><br/><sub><b>Edit Profile</b></sub></td>
+    <td align="center"><img alt="Edit Weight Page" src="LiftApp-screenshots/EditWeight.png" width="200"/><br/><sub><b>Edit Weight</b></sub></td>
   </tr>
 </table>
 
@@ -129,10 +130,10 @@ keeps the core logic framework-agnostic and unit-testable.
 
 <table>
   <tr>
-    <td align="center"><img alt="Routine List Page" src="FitApp-screenshots/RoutineList.png" width="200"/><br/><sub><b>Routine List</b></sub></td>
-    <td align="center"><img alt="Add Routine Page" src="FitApp-screenshots/AddRoutine.png" width="200"/><br/><sub><b>Add Routine</b></sub></td>
-    <td align="center"><img alt="Add Workout Page" src="FitApp-screenshots/AddWorkout.png" width="200"/><br/><sub><b>Add Workout</b></sub></td>
-    <td align="center"><img alt="Add Exercise Page" src="FitApp-screenshots/AddExercise.png" width="200"/><br/><sub><b>Add Exercise</b></sub></td>
+    <td align="center"><img alt="Routine List Page" src="LiftApp-screenshots/RoutineList.png" width="200"/><br/><sub><b>Routine List</b></sub></td>
+    <td align="center"><img alt="Add Routine Page" src="LiftApp-screenshots/AddRoutine.png" width="200"/><br/><sub><b>Add Routine</b></sub></td>
+    <td align="center"><img alt="Add Workout Page" src="LiftApp-screenshots/AddWorkout.png" width="200"/><br/><sub><b>Add Workout</b></sub></td>
+    <td align="center"><img alt="Add Exercise Page" src="LiftApp-screenshots/AddExercise.png" width="200"/><br/><sub><b>Add Exercise</b></sub></td>
   </tr>
 </table>
 
@@ -140,13 +141,13 @@ keeps the core logic framework-agnostic and unit-testable.
 
 <table>
   <tr>
-    <td align="center"><img alt="View Workout Page" src="FitApp-screenshots/ViewWorkout.png" width="200"/><br/><sub><b>View Workout</b></sub></td>
-    <td align="center"><img alt="Workout Start" src="FitApp-screenshots/WorkoutStart.png" width="200"/><br/><sub><b>Start Workout</b></sub></td>
-    <td align="center"><img alt="Live Tracking" src="FitApp-screenshots/StartWorkout.gif" width="200"/><br/><sub><b>Live Tracking</b></sub></td>
-    <td align="center"><img alt="Workout Complete" src="FitApp-screenshots/WorkoutComplete.png" width="200"/><br/><sub><b>Complete</b></sub></td>
+    <td align="center"><img alt="View Workout Page" src="LiftApp-screenshots/ViewWorkout.png" width="200"/><br/><sub><b>View Workout</b></sub></td>
+    <td align="center"><img alt="Workout Start" src="LiftApp-screenshots/WorkoutStart.png" width="200"/><br/><sub><b>Start Workout</b></sub></td>
+    <td align="center"><img alt="Live Tracking" src="LiftApp-screenshots/StartWorkout.gif" width="200"/><br/><sub><b>Live Tracking</b></sub></td>
+    <td align="center"><img alt="Workout Complete" src="LiftApp-screenshots/WorkoutComplete.png" width="200"/><br/><sub><b>Complete</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img alt="Workout Logs Page" src="FitApp-screenshots/WorkoutLogs.png" width="200"/><br/><sub><b>Workout Logs</b></sub></td>
+    <td align="center"><img alt="Workout Logs Page" src="LiftApp-screenshots/WorkoutLogs.png" width="200"/><br/><sub><b>Workout Logs</b></sub></td>
   </tr>
 </table>
 
@@ -211,5 +212,5 @@ Built by a team of University of Toronto students for CSC207:
 - Munim Adil
 
 <div align="center">
-<sub>Final project for CSC207 — Software Design · University of Toronto</sub>
+<sub>Final project for CSC207 — Software Design · University of Toronto · Fall 2021</sub>
 </div>
