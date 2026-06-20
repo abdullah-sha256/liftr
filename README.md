@@ -203,13 +203,11 @@ This project was developed in phases, with design documentation at each mileston
 
 ## 👥 Team
 
-Built by a team of University of Toronto students for CSC207:
+Built by a team of University of Toronto students for CSC207, with major contributions from:
 
-- Abdullah Shahid ([@nxabdullah](https://github.com/nxabdullah))
-- Uthman Mohamed ([@1239uth](https://github.com/1239uth))
-- Sana Sarin ([@sanasarin](https://github.com/sanasarin))
-- Souren Amini-Kisomi ([@sourenrex](https://github.com/sourenrex))
-- Munim Adil
+- Abdullah Shahid
+- Uthman Mohamed
+- Sana Sarin
 
 <div align="center">
 <sub>Final project for CSC207 — Software Design · University of Toronto · Fall 2021</sub>
