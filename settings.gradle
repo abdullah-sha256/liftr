@@ -1,2 +1,2 @@
-rootProject.name = "FitAppA"
+rootProject.name = "LiftApp"
 include ':app'

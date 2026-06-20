@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FitAppA</string>
+    <string name="app_name">LiftApp</string>
     <string name="user_Name">username</string>
     <string name="welcomeText">Hey,</string>
     <string name="firstName">First name</string>
