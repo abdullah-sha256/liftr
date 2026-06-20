@@ -176,7 +176,7 @@ cd liftr
 liftr/
 ├── app/
 │   └── src/
-│       ├── main/java/com/example/fitappa/
+│       ├── main/java/com/example/liftapp/
 │       │   ├── authentication/   # Login, sign up, session entry points
 │       │   ├── profile/          # Profile, dashboard, setup
 │       │   ├── routine/          # Routines and routine gateways
